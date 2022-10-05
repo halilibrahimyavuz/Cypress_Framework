@@ -7,6 +7,13 @@ module.exports = defineConfig({
     },
     baseUrl : "https://www.google.com/",
     
-    projectId: "us37id"
+    projectId: "us37id"  ,
+
+    "video":false  , //vıdeo kaydetmez tgestler daha hılı calısır
+
+  //  "retries":2  //test fail olunca 2 kez daha calısır
+    
+
+
   },
 });
